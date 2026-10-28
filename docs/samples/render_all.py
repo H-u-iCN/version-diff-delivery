@@ -59,7 +59,7 @@ def main():
     run([os.path.join(SCRIPTS, 'render_doc.py'), 'sheet',
          '--docx', os.path.join(SAMPLES, 'demo_v1.docx'),
          '--out', os.path.join(DOCS, 'demo-docx-sheet.png'),
-         '--cols', '3', '--thumb-w', '520',
+         '--cols', '2', '--thumb-w', '560',
          '--title', 'Word 整份拼成一张接触印相表',
          '--workdir', os.path.join(work, 'd1')])
 
@@ -67,7 +67,7 @@ def main():
          '--left', os.path.join(SAMPLES, 'demo_v1.docx'),
          '--right', os.path.join(SAMPLES, 'demo_v2.docx'),
          '--out', os.path.join(DOCS, 'demo-docx-compare.png'),
-         '--thumb-w', '520',
+         '--thumb-w', '560',
          '--title', 'Word 新旧逐页并排，变化处打橙框',
          '--workdir', os.path.join(work, 'd2')])
 

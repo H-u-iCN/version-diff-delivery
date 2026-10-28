@@ -14,9 +14,11 @@
 ## 效果图 / Screenshots
 
 以下图片全部由本仓库自己的脚本渲染合成样例生成；样例素材与一键复现脚本在 `docs/samples/`。
+演示素材刻意做得很小（PPT 3 页 / Word 2 页），这样前后对比一眼就能看清改动落在哪里，不会变成一堆缩略图。
 
 All images below were rendered by this repo's own scripts from synthetic samples; the samples and a
-one-command reproduction script live in `docs/samples/`.
+one-command reproduction script live in `docs/samples/`. The samples are deliberately tiny (3 slides /
+2 pages) so the before-and-after reads at a glance.
 
 ### 代码 / 配置 · 代码与配置
 
